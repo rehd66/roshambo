@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(228, 233, 231);
+}
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    height: 75px;
+    font-size: 2em;
+    border-radius: 15px;
+}
+#cp-score-display {
+    background: rgb(226, 149, 93);
+}
+#p-score-display {
+    background: rgb(113, 205, 233);
+}
+.face img {
+    max-width: 170px;
+    max-height: 170px;
+}
+.hands img {
+    max-width: 80px;
+    max-height: 80px;
+}
+#cp-hand, #p-hand {
+    visibility: hidden;
+    position: relative;
+}
+#cp-hand {
+    bottom: 10px;
+}
+#p-hand {
+    top: 10px;
+}
+#msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    background: rgb(173, 245, 159);
+    border: 1px solid black;
+}
+#choices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+#choices img {
+    width: 50px;
+    height: 50px;
+}
+
+

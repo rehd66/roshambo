@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Only Flex</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="score" id="cp-score-display">
+                <h1 id="cp-score"></h1>
+            </div>
+            <div class="face">
+                <img src="img/happy-emoji.png" alt="">
+            </div>
+            <div class="hands">
+                <img id="cp-hand" src="img/rock-v.png" alt="">
+            </div>
+            <div id="msg">
+                <h2 id="display-msg-top"></h2>
+                <h1 id="display-msg-bottom"></h1>
+            </div>
+            <div class="hands">
+                <img id="p-hand" src="img/rock.png" alt="">
+            </div>
+            <div class="face">
+                <img src="img/happy-emoji.png" alt="">
+            </div>
+            <div id="choices">
+                <img id="rock" src="img/rock.png" alt="">
+                <img id="paper" src="img/paper.png" alt="">
+                <img id="scissors" src="img/scissors.png" alt="">
+            </div>
+            <div class="score" id="p-score-display">
+                <h1 id="p-score"></h1>
+            </div>
+        </div>
+        
+        <audio src="bg-music.mp3" id="player" loop="loop"></audio>
+        <audio src="win.wav" id="win"></audio>
+        <audio src="lose.wav" id="lose"></audio>
+        <audio src="tie.wav" id="tie"></audio>
+        <script src="index.js"></script>
+    </body>
+</html>
