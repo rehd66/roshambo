@@ -49,7 +49,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     height: 100px;
     background: rgb(173, 245, 159);
     border: 1px solid black;
