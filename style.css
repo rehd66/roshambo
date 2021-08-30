@@ -22,9 +22,11 @@
 }
 #cp-score-display {
     background: rgb(226, 149, 93);
+    margin-top: 30px;
 }
 #p-score-display {
     background: rgb(113, 205, 233);
+    margin-bottom: 30px;
 }
 .face img {
     max-width: 170px;

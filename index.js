@@ -64,8 +64,7 @@ function pickRock(){
             setTimeout("hasChosen = false",4000); 
         } else if (cpChoose === 'paper'){
             lose.play()
-            msgTop.innerHTML = 'Paper covers rock.';
-            msgBottom.innerHTML = 'Computer Wins!';
+            msgBottom.innerHTML = 'Paper covers rock!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/paper-v.png';
             cpScore++
@@ -77,8 +76,7 @@ function pickRock(){
             setTimeout("hasChosen = false",4000);
         } else {
             win.play();
-            msgTop.innerHTML = 'Rock crushes scissors.';
-            msgBottom.innerHTML = 'Player Wins!';
+            msgBottom.innerHTML = 'Rock crushes scissors!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/scissors-v.png';
             pScore++
@@ -114,8 +112,7 @@ function pickPaper(){
             setTimeout("hasChosen = false",4000);
         } else if (cpChoose === 'rock'){
             win.play();
-            msgTop.innerHTML = 'Paper covers rock.';
-            msgBottom.innerHTML = 'Player Wins!';
+            msgBottom.innerHTML = 'Paper covers rock!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/rock-v.png';
             pScore++
@@ -127,8 +124,7 @@ function pickPaper(){
             setTimeout("hasChosen = false",4000);
         } else {
             lose.play()
-            msgTop.innerHTML = 'Scissors cut paper.';
-            msgBottom.innerHTML = 'Computer Wins!';
+            msgBottom.innerHTML = 'Scissors cut paper!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/scissors-v.png';
             cpScore++
@@ -163,8 +159,7 @@ function pickScissors(){
             setTimeout("hasChosen = false",4000);
         } else if (cpChoose === 'rock'){
             lose.play()
-            msgTop.innerHTML = 'Rock crushes scissors.';
-            msgBottom.innerHTML = 'Computer Wins!';
+            msgBottom.innerHTML = 'Rock crushes scissors!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/rock-v.png';
             cpScore++
@@ -176,8 +171,7 @@ function pickScissors(){
             setTimeout("hasChosen = false",4000);
         } else {
             win.play();
-            msgTop.innerHTML = 'Scissors cut paper.';
-            msgBottom.innerHTML = 'Player Wins!';
+            msgBottom.innerHTML = 'Scissors cut paper!';
             cpHand.style.visibility = 'visible';
             cpHand.src = 'img/paper-v.png';
             pScore++
