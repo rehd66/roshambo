@@ -16,10 +16,10 @@ let pScore = 0;
 cpScoreDisplay.innerHTML = cpScore;
 pScoreDisplay.innerHTML = pScore;
 
-container.addEventListener("click", function(){
+/*container.addEventListener("click", function(){
     let bgMusic = document.getElementById("player");
     bgMusic.play();
-})
+})*/
  
 const win = document.getElementById("win");
 const lose = document.getElementById("lose");
