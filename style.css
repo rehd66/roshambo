@@ -3,12 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 812px;
+    height: 772px;
     width: 375px;
     background: rgb(228, 233, 231);
 }
@@ -23,11 +28,11 @@
 }
 #cp-score-display {
     background: rgb(226, 149, 93);
-    margin-top: 30px;
+    margin-top: 50px;
 }
 #p-score-display {
     background: rgb(113, 205, 233);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .face img {
     max-width: 170px;
@@ -47,7 +52,7 @@
 #p-hand {
     top: 10px;
 }
-#msg {
+/*#msg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +61,9 @@
     height: 100px;
     background: rgb(173, 245, 159);
     border: 1px solid black;
+}*/
+#display-msg-top, #display-msg-bottom {
+    display: none;
 }
 #choices {
     display: flex;
